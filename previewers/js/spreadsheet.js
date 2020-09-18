@@ -33,7 +33,7 @@ function writeContent(fileUrl, file, title, authors) {
             data: data.data,
             rowHeaders: true,
             colHeaders: Object.keys(data.data[0]),
-            columnSorting: true
+            columnSorting: false
           })
         }
       
